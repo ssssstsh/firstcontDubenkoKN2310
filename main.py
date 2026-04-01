@@ -20,7 +20,10 @@ requests_data = [
     {'user': 'sidorov', 'role': 'editor', 'action': 'write', 'target': 'tables', 'source': 'api', 'access_key': 'demo-access-key'},
     {'user': 'attacker', 'role': 'editor', 'action': 'admin', 'target': 'datasets', 'source': 'api', 'access_key': 'demo-access-key'},
     {'user': 'admin_user', 'role': 'admin', 'action': 'read', 'target': 'service_logs', 'source': 'api', 'access_key': 'demo-access-key'},
-    {'user': 'unknown_user', 'role': 'reader', 'action': 'read', 'target': 'datasets', 'source': 'api', 'access_key': 'wrong-key'}
+    {'user': 'unknown_user', 'role': 'reader', 'action': 'read', 'target': 'datasets', 'source': 'api', 'access_key': 'wrong-key'},
+    {'user': 'tarasenko', 'role': 'reader', 'action': 'admin', 'target': 'service_logs', 'source': 'api', 'access_key':'demo-access-key'},
+    {'user': 'smichek', 'role': 'editor', 'action': 'read', 'target': 'tables', 'source': 'api', 'access_key':'demo_access_key'},
+    {'user': 'markin', 'role': 'editor', 'action': 'write', 'target': 'tables', 'source': 'api', 'access_key':'wrong-key'}
 ]
 
 # Политики доступа.

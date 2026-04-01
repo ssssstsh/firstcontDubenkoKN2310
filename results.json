@@ -53,6 +53,33 @@
       "source": "api",
       "decision": "blocked",
       "reason": "Неверный ключ интеграции"
+    },
+    {
+      "user": "tarasenko",
+      "role": "reader",
+      "action": "admin",
+      "target": "service_logs",
+      "source": "api",
+      "decision": "blocked",
+      "reason": "Опасная операция по политике безопасности"
+    },
+    {
+      "user": "smichek",
+      "role": "editor",
+      "action": "read",
+      "target": "tables",
+      "source": "api",
+      "decision": "blocked",
+      "reason": "Неверный ключ интеграции"
+    },
+    {
+      "user": "markin",
+      "role": "editor",
+      "action": "write",
+      "target": "tables",
+      "source": "api",
+      "decision": "blocked",
+      "reason": "Неверный ключ интеграции"
     }
   ]
 }
